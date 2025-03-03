@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Insights Test</title>
+</head>
+<body>
+    <h1>Application Insights Test Page</h1>
+    <button onclick="throwError()">Throw Error</button>
+    <script src="dist/bundle.js"></script>
+    <script>
+        function throwError() {
+            throw new Error('This is a manually triggered error');
+        }
+    </script>
+</body>
+</html>
