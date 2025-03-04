@@ -2,7 +2,7 @@ import { ApplicationInsights } from '@microsoft/applicationinsights-web';
 
 const appInsights = new ApplicationInsights({
     config: {
-        instrumentationKey: '0e96f321-ed5c-4c25-bba2-90cab892de67',
+        instrumentationKey: 'INSTRUMENTATION KEY',
         enableAutoRouteTracking: true, // Optional: Enables automatic route tracking for Single Page Applications
         loggingLevelConsole: 2 // 0: OFF, 1: ERROR, 2: WARN, 3: INFO, 4: DEBUG
     }
